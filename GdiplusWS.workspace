@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="GdiplusWS" Database="" Version="10000">
-  <Project Name="DrawALine" Path="DrawALine/DrawALine.project" Active="Yes"/>
+  <Project Name="DrawALine" Path="DrawALine/DrawALine.project" Active="No"/>
+  <Project Name="DrawText" Path="DrawText/DrawText.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="DrawALine" ConfigName="Debug"/>
+      <Project Name="DrawText" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="DrawALine" ConfigName="Release"/>
+      <Project Name="DrawText" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
