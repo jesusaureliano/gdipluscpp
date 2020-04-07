@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ DrawPath - Debug ]----------"
-	@cd "DrawPath" && "$(MAKE)" -f  "DrawPath.mk"
+	@echo "----------Building project:[ SistemasDeCoordenadas - Debug ]----------"
+	@cd "SistemasDeCoordenadas" && "$(MAKE)" -f  "SistemasDeCoordenadas.mk"
 clean:
-	@echo "----------Cleaning project:[ DrawPath - Debug ]----------"
-	@cd "DrawPath" && "$(MAKE)" -f  "DrawPath.mk" clean
+	@echo "----------Cleaning project:[ SistemasDeCoordenadas - Debug ]----------"
+	@cd "SistemasDeCoordenadas" && "$(MAKE)" -f  "SistemasDeCoordenadas.mk" clean
