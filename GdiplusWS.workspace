@@ -4,6 +4,7 @@
   <Project Name="DrawText" Path="DrawText/DrawText.project" Active="No"/>
   <Project Name="DrawPath" Path="DrawPath/DrawPath.project" Active="No"/>
   <Project Name="SistemasDeCoordenadas" Path="SistemasDeCoordenadas/SistemasDeCoordenadas.project" Active="Yes"/>
+  <Project Name="Plot" Path="Plot/Plot.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="DrawText" ConfigName="Debug"/>
       <Project Name="DrawPath" ConfigName="Debug"/>
       <Project Name="SistemasDeCoordenadas" ConfigName="Debug"/>
+      <Project Name="Plot" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="DrawText" ConfigName="Release"/>
       <Project Name="DrawPath" ConfigName="Release"/>
       <Project Name="SistemasDeCoordenadas" ConfigName="Release"/>
+      <Project Name="Plot" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
